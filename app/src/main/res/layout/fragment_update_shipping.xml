@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile.UpdateShippingFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/lato"
+        android:text="Add Shipping Information"
+        android:textColor="#4D4D4D"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/namelabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/head"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/lato"
+        android:text="Your Name" />
+
+
+
+    <EditText
+        android:id="@+id/nameadd"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/namelabel"
+        android:layout_margin="10dp"
+        android:hint="Full Name"
+        android:padding="10dp"
+        android:background="@drawable/addressedit"
+        />
+
+
+    <TextView
+        android:id="@+id/phonelabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nameadd"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/lato"
+        android:text="Phone Number" />
+
+
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Phone Number"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:layout_below="@id/phonelabel"
+        android:background="@drawable/addressedit"
+
+        android:inputType="phone" />
+
+
+
+    <TextView
+        android:id="@+id/statelabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phone"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/lato"
+        android:text="State Name" />
+
+
+
+    <EditText
+        android:id="@+id/statename"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:hint="State Name"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:layout_below="@id/statelabel"
+        android:background="@drawable/addressedit"
+
+        />
+
+
+
+    <TextView
+        android:id="@+id/citylabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phone"
+
+        android:layout_margin="10dp"
+
+        android:layout_toEndOf="@id/statename"
+        android:fontFamily="@font/lato"
+        android:text="City Name" />
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/cityname"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:hint="City Name"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/addressedit"
+        android:layout_toEndOf="@id/statename"
+        android:layout_below="@id/citylabel"/>
+
+
+
+    <TextView
+        android:id="@+id/landmarklabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cityname"
+
+        android:layout_margin="10dp"
+
+        android:fontFamily="@font/lato"
+        android:text="LandMark" />
+
+
+
+    <EditText
+        android:id="@+id/landmark"
+        android:layout_width="match_parent"
+        android:background="@drawable/addressedit"
+
+        android:layout_height="50dp"
+        android:layout_below="@id/landmarklabel"
+        android:hint="LandMark"
+        android:layout_margin="10dp"
+        android:padding="10dp"/>
+
+
+
+
+    <TextView
+        android:id="@+id/addresslabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/landmark"
+
+        android:layout_margin="10dp"
+
+        android:fontFamily="@font/lato"
+        android:text="HouseNumber" />
+
+
+
+    <EditText
+        android:id="@+id/houseno"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/addressedit"
+        android:layout_below="@id/addresslabel"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:hint="House Number" />
+        <Button
+            android:id="@+id/update"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Add/Update Address"
+            android:background="@drawable/add_to_cart"
+            android:layout_below="@id/houseno"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:textColor="#ffff"
+            android:fontFamily="@font/lato"
+            android:textSize="18sp"
+            />
+
+
+</RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>

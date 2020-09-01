@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="8dp"
+    android:layout_height="117dp"
+    android:layout_margin="10dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imagecard"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:src="@drawable/tshirt"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/BrandCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:fontFamily="@font/lato"
+            android:text="Brand"
+            android:textColor="#4D4D4D"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/imagecard"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/remove"
+            android:layout_width="19dp"
+            android:layout_height="19dp"
+
+            android:rotation="40"
+            android:src="@drawable/cross"
+            app:layout_constraintBottom_toTopOf="@+id/plus"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.93"
+            app:layout_constraintStart_toEndOf="@+id/BrandCard"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.119" />
+
+        <TextView
+            android:id="@+id/priceCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:fontFamily="@font/lato"
+            android:text="20000"
+            android:textColor="#9D9D9D"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/imagecard"
+            app:layout_constraintTop_toBottomOf="@id/BrandCard" />
+
+        <TextView
+            android:id="@+id/Colortitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/lato"
+            android:text="Color"
+            android:textColor="#C0C0C0"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/imagecard"
+            app:layout_constraintTop_toBottomOf="@id/priceCard" />
+
+        <TextView
+            android:id="@+id/colorCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/lato"
+            android:text="Black"
+            android:textColor="#4D4D4D"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/imagecard"
+            app:layout_constraintTop_toBottomOf="@id/Colortitle" />
+
+        <TextView
+            android:id="@+id/sizetitile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/lato"
+            android:text="Size"
+            android:textColor="#C0C0C0"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/Colortitle"
+            app:layout_constraintTop_toBottomOf="@id/priceCard" />
+
+        <TextView
+            android:id="@+id/sizeCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/lato"
+            android:text="Black"
+            android:textColor="#4D4D4D"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/colorCard"
+            app:layout_constraintTop_toBottomOf="@id/sizetitile" />
+
+
+        <TextView
+            android:id="@+id/plus"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="30dp"
+            android:gravity="center"
+            android:text="+"
+            android:textColor="#37BEA9"
+            android:textSize="20sp"
+            app:layout_constraintStart_toEndOf="@+id/sizeCard"
+            app:layout_constraintTop_toTopOf="@+id/sizetitile" />
+
+
+        <TextView
+            android:id="@+id/quantity"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+
+
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/lato"
+            android:gravity="center"
+            android:textColor="#4D4D4D"
+
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/plus"
+            app:layout_constraintStart_toEndOf="@+id/plus"
+            app:layout_constraintTop_toTopOf="@+id/plus" />
+        <TextView
+            android:id="@+id/minus"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="10dp"
+
+            android:gravity="center"
+            android:text="|"
+            android:rotation="90"
+            android:textColor="#37BEA9"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@+id/quantity"
+            app:layout_constraintStart_toEndOf="@+id/quantity" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

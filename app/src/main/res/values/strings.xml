@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Simply</string>
+    <string name="first_heading">EXPLORE</string>
+    <string name="second_heading">PAY IT</string>
+    <string name="third_heading">FAST DELIVERY</string>
+    <string name="first_desc">Find suitable product for your household needs style easily by swipe and scroll.</string>
+    <string name="second_desc">Process payment for your purchased items with your lovely payment method.</string>
+    <string name="third_desc">Within our dedicated delivery partner you’ll get your items fastly.</string>
+    <string name="what_s_on_your_mind">Enter your query</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="googlepay_button_content_description">Google Pay</string>
+
+    <string name="buy_with_googlepay_button_content_description">Buy with Google Pay</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

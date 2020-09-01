@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Watson Assistant service credentials-->
+    <!-- REPLACE `ASSISTANT_ID_HERE` with ID of the Assistant to use -->
+    <string name="assistant_id">0884a8ef-33c3-448b-8f99-55aad6c84bd9</string>
+
+    <!-- REPLACE `ASSISTANT_API_KEY_HERE` with Watson Assistant service API Key-->
+    <string name="assistant_apikey">pUT_vUPwbVU6PW7WMHaVrucRD3msQZ3o2Qq9mc7mdZjT</string>
+
+    <!-- The URL provided below is for DALLAS region/location -->
+    <!-- If the Assistant service is created in another region/lpcation -->
+    <!-- REPLACE the URL with the one provided in the credentials of the service you created-->
+    <string name="assistant_url">https://api.eu-gb.assistant.watson.cloud.ibm.com/instances/b0f060f1-2936-4388-a121-12246866c259</string>
+
+
+    <!--Watson Speech To Text(STT) service credentials-->
+    <!-- REPLACE `STT_API_KEY_HERE` with Watson Speech to Text service API Key-->
+    <string name="STT_apikey">vkZGuy2AgAFHWm-UHFujTDoSWMoA67PXdhYMdLra6_8B</string>
+    
+    <!-- The URL provided below is for DALLAS region/location -->
+    <!-- If the STT service is created in another region/lpcation -->
+    <!-- REPLACE the URL with STT URL provided in the service credentials -->
+    <string name="STT_url">https://api.eu-gb.speech-to-text.watson.cloud.ibm.com/instances/da3d2bb2-0960-44ed-a003-5d026c7348b0</string>
+
+
+    <!--Watson Text To Speech(TTS) service credentials-->
+    <!-- REPLACE `TTS_API_KEY_HERE` with Watson Text to Speech service API Key-->
+    <string name="TTS_apikey">ux9q1Pom8XXEs3Ixd-4Fe3AJ8zqg4w3u3YS4xCbjgrcM</string>
+    
+    <!-- The URL provided below is for DALLAS region/location -->
+    <!-- If the TTS service is created in another region/lpcation -->
+    <!-- REPLACE the URL with TTS URL provided in the service credentials -->
+    <string name="TTS_url">https://api.eu-gb.text-to-speech.watson.cloud.ibm.com/instances/4f356501-4541-4040-a2a5-a5691830ca3c</string>
+
+</resources>
+
+<!--    {-->
+<!--    "apikey": "pUT_vUPwbVU6PW7WMHaVrucRD3msQZ3o2Qq9mc7mdZjT",-->
+<!--    "iam_apikey_description": "Auto-generated for key c911a769-be9a-49b2-84a4-84d5e836710d",-->
+<!--    "iam_apikey_name": "Auto-generated service credentials",-->
+<!--    "iam_role_crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager",-->
+<!--    "iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/ed92f5aeb86348b295c7474c8f9cdc86::serviceid:ServiceId-371cf33a-3dd5-4fde-acbb-392e6a82eaca",-->
+<!--    "url": "https://api.eu-gb.assistant.watson.cloud.ibm.com/instances/b0f060f1-2936-4388-a121-12246866c259"-->
+<!--    }-->

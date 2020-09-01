@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/menu_top"
+        android:checkableBehavior="none">
+        <item android:title="HELP" android:id="@+id/help" android:icon="@drawable/ic_baseline_help_24"/>
+
+    </group>
+<group android:id="@+id/menu"
+    android:checkableBehavior="none">
+
+    <item android:title="FAQ" android:id="@+id/faqnav" android:icon="@drawable/ic_baseline_question_answer_24"/>
+</group>
+    <group android:checkableBehavior="none"
+        android:id="@+id/men">
+
+        <item android:title="ABOUT" android:id="@+id/about" android:icon="@drawable/ic_baseline_info_24" />
+    </group>
+<group android:checkableBehavior="none"
+    android:id="@+id/me">
+    <item android:title="RATE THIS APP" android:id="@+id/ratethisapp" android:icon="@drawable/ic_baseline_star_24"/>
+</group>
+    <item android:id="@+id/logoutnav" android:title="LOGOUT" android:icon="@drawable/ic_baseline_arrow_back_24"/>
+
+
+</menu>
