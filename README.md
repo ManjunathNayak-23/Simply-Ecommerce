@@ -1,2 +1,2 @@
 # Simply-Ecommerce
-simply ecommerce is an dress shoppie application. It has modern Ui design and everthing online based experience to the user. It also consist of chatbot in the application so that it can solve users queries
+simply ecommerce is an dress shoppie application. It has modern Ui design and everthing online based experience to the user. It also consist of chatbot in the application so that it can solve users queries. It consist of all the features a modern ecommerce application hosts. This android application is developed using java and for the backend services it makes use of firebase realtime database.
